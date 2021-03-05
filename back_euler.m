@@ -1,5 +1,5 @@
-# eulers method using backward differences
-# y_n+1 = y_n + dt f(t_n+1, y_n+1)
+% eulers method using backward differences
+% y_n+1 = y_n + dt f(t_n+1, y_n+1)
 
 f = @(t, y) t.^2 - y;
 h = 0.8;
